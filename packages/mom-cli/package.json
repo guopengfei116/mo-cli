@@ -1,9 +1,9 @@
 {
-  "name": "mo-cli",
+  "name": "mom-cli",
   "version": "0.0.3",
   "description": "mo集成开发工具",
   "keywords": [
-    "mo"
+    "mom"
   ],
   "author": "guopf <626138959@qq.com>",
   "homepage": "https://github.com/guopengfei116/mo-cli#readme",
@@ -32,5 +32,5 @@
   "dependencies": {
     "mo": "^0.0.2"
   },
-  "gitHead": "8e208ada746791e2740fe4ae9c718d2917c20c2f"
+  "gitHead": "3d7035be482a38718c449181c43ca86036517eff"
 }

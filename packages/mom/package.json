@@ -1,9 +1,9 @@
 {
-  "name": "mo-ui",
+  "name": "mom",
   "version": "0.0.3",
   "description": "vue快速开发脚手架",
   "keywords": [
-    "mo",
+    "mom",
     "ui"
   ],
   "author": "guopf <626138959@qq.com>",
@@ -84,5 +84,5 @@
       "git add"
     ]
   },
-  "gitHead": "8e208ada746791e2740fe4ae9c718d2917c20c2f"
+  "gitHead": "3d7035be482a38718c449181c43ca86036517eff"
 }
