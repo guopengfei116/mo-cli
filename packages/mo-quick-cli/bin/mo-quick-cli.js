@@ -5,7 +5,7 @@ const { program } = require("commander");
 const { camelCase } = require("lodash");
 
 // @mo
-process.env.MO_CLI_HOME = path.resolve(__dirname, '../../');
+process.env.MO_CLI_HOME = path.resolve(__dirname, '../');
 
 program
   .version(`mo-cli ${require("../package").version}`)
