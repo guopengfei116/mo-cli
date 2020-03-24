@@ -1,6 +1,6 @@
 {
   "name": "mom-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "mo集成开发工具",
   "keywords": [
     "mom"
@@ -30,7 +30,7 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mom": "^0.0.4"
+    "mom": "^0.0.5"
   },
   "gitHead": "9c095ca7095a174ac6b9063b99f0beb148a565bf"
 }
