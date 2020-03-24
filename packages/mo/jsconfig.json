@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*", "qq/**/*", "mo/**/*", "mo-ui/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "target": "es2019",
+    "checkJs": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "qq/*": ["qq/*"],
+      "mo/*": ["mo/*"],
+      "mo-ui/*": ["mo-ui/*"],
+    }
+  }
+}
