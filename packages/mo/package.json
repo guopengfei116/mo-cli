@@ -1,9 +1,10 @@
 {
-  "name": "mo",
+  "name": "mo-ui",
   "version": "0.0.2",
   "description": "vue快速开发脚手架",
   "keywords": [
-    "mo"
+    "mo",
+    "ui"
   ],
   "author": "guopf <626138959@qq.com>",
   "homepage": "https://github.com/guopengfei116/mo#readme",
@@ -83,5 +84,5 @@
       "git add"
     ]
   },
-  "gitHead": "b400906a31f52dab0c8b293464b1222fcd58c87a"
+  "gitHead": "8e208ada746791e2740fe4ae9c718d2917c20c2f"
 }
