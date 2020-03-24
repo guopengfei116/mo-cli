@@ -1,9 +1,9 @@
 {
-  "name": "mo-cli",
+  "name": "mo-quick-cli",
   "version": "0.0.10",
   "description": "mo集成开发工具",
   "bin": {
-    "mo-cli": "bin/mo-cli.js"
+    "mo-cli": "bin/mo-quick-cli.js"
   },
   "keywords": [
     "mo"
@@ -34,8 +34,8 @@
     "envinfo": "^7.5.0",
     "fs-extra": "^9.0.0",
     "lodash": "^4.17.15",
-    "mo-quick": "^0.0.10",
-    "slash": "^3.0.0"
+    "slash": "^3.0.0",
+    "mo-quick": "^0.0.10"
   },
-  "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
+  "gitHead": "9ce1aea9f3138e1eea9157b1947ae9aa9514da37"
 }
