@@ -1,6 +1,6 @@
 {
   "name": "mo-quick-cli",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "mo集成开发工具",
   "keywords": [
     "mo"
@@ -30,7 +30,7 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mo-quick": "^0.0.1"
+    "mo-quick": "^0.0.7"
   },
   "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
 }
