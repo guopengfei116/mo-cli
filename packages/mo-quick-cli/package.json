@@ -3,7 +3,7 @@
   "version": "0.0.8",
   "description": "mo集成开发工具",
   "bin": {
-    "vue": "bin/vue.js"
+    "mo-cli": "bin/mo-cli.js"
   },
   "keywords": [
     "mo"
