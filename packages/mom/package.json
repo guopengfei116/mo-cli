@@ -3,13 +3,12 @@
   "version": "0.0.5",
   "description": "vue快速开发脚手架",
   "keywords": [
-    "mom",
+    "mo",
     "ui"
   ],
   "author": "guopf <626138959@qq.com>",
   "homepage": "https://github.com/guopengfei116/mo#readme",
   "license": "MIT",
-  "main": "lib/mo.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
