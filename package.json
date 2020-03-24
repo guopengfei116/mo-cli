@@ -1,7 +1,7 @@
 {
   "name": "mo-cli",
   "version": "0.0.1",
-  "description": "mo前端敏捷开发解决方案",
+  "description": "基于Vue的前端敏捷开发解决方案",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

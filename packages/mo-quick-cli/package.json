@@ -1,9 +1,9 @@
 {
-  "name": "mom-cli",
-  "version": "0.0.6",
+  "name": "mo-quick-cli",
+  "version": "0.0.1",
   "description": "mo集成开发工具",
   "keywords": [
-    "mom"
+    "mo"
   ],
   "author": "guopf <626138959@qq.com>",
   "homepage": "https://github.com/guopengfei116/mo-cli#readme",
@@ -30,7 +30,7 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mom-quick": "0.0.6"
+    "mo-quick": "^0.0.1"
   },
   "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
 }

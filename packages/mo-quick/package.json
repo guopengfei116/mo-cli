@@ -1,7 +1,7 @@
 {
-  "name": "mom",
-  "version": "0.0.6",
-  "description": "vue快速开发脚手架",
+  "name": "mo-quick",
+  "version": "0.0.1",
+  "description": "Vue模块化开发脚手架",
   "keywords": [
     "mo",
     "ui"
@@ -83,5 +83,5 @@
       "git add"
     ]
   },
-  "gitHead": "0852d190e0cf406ec24cba3bd1c963a8b29325d0"
+  "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
 }
