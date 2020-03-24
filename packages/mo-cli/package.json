@@ -1,6 +1,6 @@
 {
   "name": "mo-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "mo集成开发工具",
   "keywords": [
     "mo"
@@ -30,6 +30,6 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mo": "^0.0.0"
+    "mo": "^0.0.1"
   }
 }
