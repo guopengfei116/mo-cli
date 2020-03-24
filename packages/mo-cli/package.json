@@ -1,5 +1,5 @@
 {
-  "name": "mo-quick-cli",
+  "name": "mo-cli",
   "version": "0.0.9",
   "description": "mo集成开发工具",
   "bin": {
@@ -30,6 +30,11 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
+    "commander": "^5.0.0",
+    "envinfo": "^7.5.0",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.15",
+    "slash": "^3.0.0",
     "mo-quick": "^0.0.9"
   },
   "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
