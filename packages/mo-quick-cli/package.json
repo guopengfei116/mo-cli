@@ -1,6 +1,6 @@
 {
   "name": "mo-quick-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "mo集成开发工具",
   "bin": {
     "vue": "bin/vue.js"
@@ -30,7 +30,7 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mo-quick": "^0.0.7"
+    "mo-quick": "^0.0.8"
   },
   "gitHead": "3e3f0a8cb4cb750f4dd733d6f93873d58ab01e0f"
 }
