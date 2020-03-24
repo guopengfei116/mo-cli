@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const path = require("path");
 const { program } = require("commander");
 const { camelCase } = require("lodash");
@@ -25,7 +27,7 @@ program
   .description("代码模板生成器")
   .option("-m, --module <moduleName>", "创建新模块")
   .option("-c, --component <componentsName>", "添加组件")
-  .option("-t, --template <templateName>", "指定模板", "crud")
+  .option("-t, --template <templateId>", "模块或组件等类型代码模板的名称", "crud")
   .option("-f --force", "冲突时强制覆盖原目录或文件")
   .allowUnknownOption()
   .action((dir = "./src", cmd) => {
