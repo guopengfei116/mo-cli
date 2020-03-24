@@ -30,7 +30,7 @@
     "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
-    "mo": "^0.0.2"
+    "mom": "^0.0.4"
   },
-  "gitHead": "3d7035be482a38718c449181c43ca86036517eff"
+  "gitHead": "9c095ca7095a174ac6b9063b99f0beb148a565bf"
 }
