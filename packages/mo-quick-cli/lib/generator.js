@@ -2,8 +2,7 @@ const path = require("path");
 const fse = require("fs-extra");
 
 module.exports = function(distDir, options) {
-  // const templateDir = require("mo-tpl").resolve();
-  const templateDir = path.resolve(process.env.MO_CLI_HOME, "./mom-tpl");
+  const templateDir = path.dirname(require.resolve("mo-quick-tpl"));
   const generator = new Generator(templateDir, distDir, options);
 
   if (options.module) {
