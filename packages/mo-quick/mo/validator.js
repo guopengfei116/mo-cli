@@ -1,1 +1,1 @@
-export * from "qq/qq-core/validator";
+export * from "lqq-util/lib/validator";

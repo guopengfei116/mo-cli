@@ -1,1 +1,1 @@
-export * from "qq/qq-runtime/store";
+export * from "lqq-core/lib/store";

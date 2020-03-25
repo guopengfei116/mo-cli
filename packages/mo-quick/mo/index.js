@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App";
-import bootstrap from "qq/qq-runtime";
+import bootstrap from "lqq-core";
 
 class Mo {
   constructor(modules) {

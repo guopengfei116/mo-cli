@@ -1,1 +1,1 @@
-export { default as BaseForm } from "qq/qq-ui/mixins/BaseForm";
+export { default as BaseForm } from "lqq-ui/mixins/BaseForm";

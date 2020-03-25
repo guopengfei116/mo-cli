@@ -1,1 +1,1 @@
-export * from "qq/qq-core/object";
+export * from "lqq-util/lib/object";

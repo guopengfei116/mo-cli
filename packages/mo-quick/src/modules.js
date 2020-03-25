@@ -1,4 +1,4 @@
 import moUi from "mo-ui/main";
-import qqTest from "qq/qq-test/main";
+import moGuide from "mo-guide/main";
 
-export default [moUi, qqTest];
+export default [moUi, moGuide];

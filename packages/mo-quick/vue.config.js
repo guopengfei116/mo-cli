@@ -14,9 +14,10 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        qq: resolve("qq"),
         mo: resolve("mo"),
-        "mo-ui": resolve("mo-ui")
+        "lqq-ui": resolve("lqq-ui"),
+        "mo-ui": resolve("mo-ui"),
+        "mo-guide": resolve("mo-guide"),
       }
     }
   },

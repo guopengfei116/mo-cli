@@ -1,1 +1,1 @@
-export * from "qq/qq-core/env";
+export * from "lqq-util/lib/env";

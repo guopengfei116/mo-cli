@@ -1,1 +1,1 @@
-export * from "qq/qq-runtime/router";
+export * from "lqq-core/lib/router";

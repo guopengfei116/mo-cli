@@ -1,1 +1,1 @@
-export * from "qq/qq-core/date";
+export * from "lqq-util/lib/date";
