@@ -1,5 +1,5 @@
 {
-  "name": "mo-quick-cli",
+  "name": "@weiyi/mo-quick-cli",
   "version": "0.0.15",
   "description": "mo集成开发工具",
   "bin": {
@@ -8,8 +8,7 @@
   "keywords": [
     "mo"
   ],
-  "author": "guopf <626138959@qq.com>",
-  "homepage": "https://github.com/guopengfei116/mo-cli#readme",
+  "author": "guopf",
   "license": "MIT",
   "directories": {
     "lib": "lib",
@@ -20,22 +19,20 @@
     "access": "public"
   },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/guopengfei116/mo-cli.git"
+    "type": "git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/guopengfei116/mo-cli/issues"
   },
   "dependencies": {
     "commander": "^5.0.0",
     "envinfo": "^7.5.0",
     "fs-extra": "^9.0.0",
     "lodash": "^4.17.15",
-    "mo-quick": "^0.0.15",
     "slash": "^3.0.0"
+  },
+  "devDependencies": {
+    "mo-quick": "^0.0.15"
   },
   "gitHead": "9ce1aea9f3138e1eea9157b1947ae9aa9514da37"
 }
