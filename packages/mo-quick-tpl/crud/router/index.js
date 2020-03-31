@@ -44,7 +44,7 @@ export default {
   path: "/",
   component() {
     return import(
-      /* webpackChunkName: "Layout" */ "@/core/Layout.vue"
+      /* webpackChunkName: "Layout" */ "@/core/view/Layout"
     );
   },
   children: routes

@@ -2,6 +2,7 @@
   "include": ["src/**/*", "qq/**/*", "mo/**/*", "mo-ui/**/*"],
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
+    "experimentalDecorators": true,
     "target": "es2019",
     "checkJs": false,
     "baseUrl": ".",
