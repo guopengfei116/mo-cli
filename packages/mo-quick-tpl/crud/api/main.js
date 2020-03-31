@@ -4,7 +4,7 @@ export default {
     "/api/Xxx",
     {
       priority: Infinity,
-      engine: "crudExample"
+      engine: "crud"
     }
   ],
 
@@ -12,7 +12,7 @@ export default {
     "post",
     "/api/Xxx",
     {
-      engine: "crudExample"
+      engine: "crud"
     }
   ],
 
@@ -20,7 +20,7 @@ export default {
     "post",
     "/api/Xxx",
     {
-      engine: "crudExample"
+      engine: "crud"
     }
   ],
 
@@ -28,7 +28,7 @@ export default {
     "delete",
     "/api/Xxx",
     {
-      engine: "crudExample"
+      engine: "crud"
     }
   ]
 };

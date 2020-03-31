@@ -18,6 +18,7 @@ program
   .action((appName, dir = "./", cmd) => {
     const appDir = path.resolve(process.cwd(), dir, appName);
     const options = extractOptions(cmd);
+    options.appName = appName;
     require("../lib/create")(appDir, options);
   });
 
@@ -26,7 +27,7 @@ program
   .alias("g")
   .description("代码模板生成器")
   .option("-m, --module <moduleName>", "创建新模块")
-  .option("-c, --component <componentsName>", "添加组件")
+  .option("-c, --component <componentName>", "添加组件")
   .option("-t, --template <templateId>", "模块或组件等类型代码模板的名称", "crud")
   .option("-f --force", "冲突时强制覆盖原目录或文件")
   .allowUnknownOption()

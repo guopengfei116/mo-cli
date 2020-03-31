@@ -1,3 +1,5 @@
+import { Enums } from "mo/class";
+
 // 硬盘规格
 export const diskTuple = [
   ["100G", "100G"],
@@ -7,4 +9,4 @@ export const diskTuple = [
   ["1024G", "1024G"]
 ];
 
-export const diskOptionalTuple = [["", "无需"], ...diskTuple];
+export default Enums.create(diskTuple, 0, 1);

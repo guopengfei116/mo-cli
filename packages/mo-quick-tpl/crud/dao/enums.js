@@ -1,6 +1,6 @@
 import { createNamespacedHelpers } from "mo/http";
 
-const request = createNamespacedHelpers("crudExample/enums");
+const request = createNamespacedHelpers("crud/enums");
 
 export const getNavMenus = async payload => {
   const res = await request("getNavMenus")(payload);

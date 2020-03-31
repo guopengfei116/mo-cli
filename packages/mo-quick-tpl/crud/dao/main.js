@@ -1,6 +1,6 @@
 import { createNamespacedHelpers } from "mo/http";
 
-const request = createNamespacedHelpers("crudExample/main");
+const request = createNamespacedHelpers("crud/main");
 
 export const getXxxList = async payload => {
   const res = await request("getXxxList")(payload);

@@ -39,15 +39,15 @@
 import { mapState, mapActions } from "vuex";
 import { overwrite } from "mo/object";
 
-import SearchModel from "@/crud-example/model/vo/Search";
-import AddEditModel from "@/crud-example/model/vo/AddEdit";
+import SearchModel from "@/crud/model/vo/Search";
+import AddEditModel from "@/crud/model/vo/AddEdit";
 
 import Search from "./Search";
 import Contents from "./Contents";
 import AddEditDialog from "./AddEditDialog";
 
 export default {
-  name: "CrudExampleIndex",
+  name: "crudExample",
 
   components: {
     Search,
@@ -62,7 +62,7 @@ export default {
   },
 
   computed: {
-    ...mapState("crudExample/main", ["defaultSearchModel", "xxxList"])
+    ...mapState("crud/main", ["defaultSearchModel", "xxxList"])
   },
 
   mounted() {
@@ -70,7 +70,7 @@ export default {
   },
 
   methods: {
-    ...mapActions("crudExample/main", ["getXxxList", "openAddDialog"]),
+    ...mapActions("crud/main", ["getXxxList", "openAddDialog"]),
 
     async search() {
       this.searchLoading = true;

@@ -1,11 +1,12 @@
 const path = require("path");
 const fse = require("fs-extra");
+const chalk = require("chalk");
 
 module.exports = function(targetDir, options) {
-  const templateDir = path.dirname(require.resolve("mo-quick"));
+  const templateDir = path.dirname(require.resolve("@weiyi/mo-quick"));
 
-  console.log("初始化项目...");
+  console.log(`✨`, `创建项目: ${chalk.yellow(targetDir)}.`)
   fse.copy(templateDir, targetDir)
-      .then(() => console.log(`项目创建成功: ${targetDir}`))
+      .then(() => console.log(`🎉`, `创建成功!`))
       .catch(e => console.log(e));
 }

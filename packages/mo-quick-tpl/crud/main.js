@@ -3,7 +3,7 @@ import store from "./store";
 import api from "./api";
 import httpEngine from "./api/engine";
 
-const MODULE_NAME = "crudExample";
+const MODULE_NAME = "crud";
 
 export default ({
   registerRouter,

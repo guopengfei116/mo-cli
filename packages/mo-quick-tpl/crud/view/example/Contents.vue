@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "CrudExampleContents",
+  name: "crudExampleContents",
 
   functional: true,
 

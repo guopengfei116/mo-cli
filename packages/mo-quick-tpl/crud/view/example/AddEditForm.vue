@@ -25,14 +25,14 @@ import { ruleFactory } from "mo/validator";
 import { overwrite } from "mo/object";
 import { BaseForm } from "mo-ui/mixin";
 
-import AddEditModel from "@/crud-example/model/vo/AddEdit";
+import AddEditModel from "@/crud/model/vo/AddEdit";
 
 const modelRules = {
   year: ruleFactory("selectRequired", "请选择有效年份")
 };
 
 export default {
-  name: "CrudExampleAddEditForm",
+  name: "crudExampleAddEditForm",
 
   mixins: [BaseForm],
 

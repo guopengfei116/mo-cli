@@ -1,4 +1,4 @@
-import actions from "@/crud-example/action/enums";
+import actions from "@/crud/action/enums";
 
 const state = {
   menus: []

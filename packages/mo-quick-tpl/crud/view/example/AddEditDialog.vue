@@ -29,11 +29,11 @@
 <script>
 import { mapState, mapActions } from "vuex";
 
-import AddEditModel from "@/crud-example/model/vo/AddEdit";
+import AddEditModel from "@/crud/model/vo/AddEdit";
 import AddEditForm from "./AddEditForm";
 
 export default {
-  name: "CrudExampleAddEditDialog",
+  name: "crudExampleAddEditDialog",
 
   components: {
     AddEditForm
@@ -46,11 +46,11 @@ export default {
   },
 
   computed: {
-    ...mapState("crudExample/main", ["addEditDialog"])
+    ...mapState("crud/main", ["addEditDialog"])
   },
 
   methods: {
-    ...mapActions("crudExample/main", [
+    ...mapActions("crud/main", [
       "closeAddEditDialog",
       "submitAddEditDialog"
     ]),
