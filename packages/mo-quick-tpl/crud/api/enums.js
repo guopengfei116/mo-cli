@@ -3,7 +3,7 @@ export default {
     "get",
     "/api/menus",
     {
-      engine: "crudExample"
+      engine: "crud"
     }
   ],
 

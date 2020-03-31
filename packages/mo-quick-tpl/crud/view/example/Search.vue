@@ -59,10 +59,10 @@ import { mapActions, mapState } from "vuex";
 import { overwriteAll } from "mo/object";
 import { BaseForm } from "mo-ui/mixin";
 
-import SearchModel from "@/crud-example/model/vo/Search";
+import SearchModel from "@/crud/model/vo/Search";
 
 export default {
-  name: "CrudExampleSearch",
+  name: "crudExampleSearch",
 
   mixins: [BaseForm],
 

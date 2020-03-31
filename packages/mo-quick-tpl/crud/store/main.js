@@ -1,8 +1,8 @@
 import { overwrite } from "mo/object";
 
-import actions from "@/crud-example/action/main";
-import SearchModel from "@/crud-example/model/vo/Search";
-import AddEditModel from "@/crud-example/model/vo/AddEdit";
+import actions from "@/crud/action/main";
+import SearchModel from "@/crud/model/vo/Search";
+import AddEditModel from "@/crud/model/vo/AddEdit";
 
 const addEditMode = ["add", "edit"];
 const addEditTitle = ["创建XXX", "更新XXX"];

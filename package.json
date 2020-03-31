@@ -2,15 +2,17 @@
   "name": "mo-cli",
   "version": "0.0.1",
   "description": "基于Vue的前端敏捷开发解决方案",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "vue",
     "cli",
-    "mom"
+    "mo"
   ],
+  "repository": {
+    "type": "git"
+  },
   "author": "guopf",
   "license": "MIT",
   "devDependencies": {

@@ -1,5 +1,5 @@
-import * as dao from "@/crud-example/dao/enums";
-import { types } from "@/crud-example/store/enums";
+import * as dao from "@/crud/dao/enums";
+import { types } from "@/crud/store/enums";
 
 export default {
   async getNavMenus({ commit }, payload) {
