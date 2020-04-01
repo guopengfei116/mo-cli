@@ -1,0 +1,20 @@
+{
+  "name": "@weiyi/mo",
+  "version": "0.2.3",
+  "description": "mo util",
+  "keywords": [
+    "mo"
+  ],
+  "author": "guopf",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.0",
+    "lqq-core": "0.0.9",
+    "lqq-util": "0.0.9",
+    "vue": "^2.6.11"
+  }
+}
