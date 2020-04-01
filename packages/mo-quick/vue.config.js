@@ -1,4 +1,6 @@
 const path = require("path");
+const PROXY_CONFIG = require("./vue.proxy");
+
 const resolve = dir => path.join(__dirname, dir);
 
 const isDevelopment = process.env.VUE_APP_ENV === "development";
@@ -34,11 +36,6 @@ module.exports = {
     host: "0.0.0.0",
     port: 7070,
     disableHostCheck: true,
-    proxy: {
-      "/api": {
-        target: "http://localhost",
-        changeOrigin: true
-      }
-    }
+    proxy: PROXY_CONFIG
   }
 };
