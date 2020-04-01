@@ -13,11 +13,15 @@ module.exports = {
 
   productionSourceMap: isProduction ? false : true,
 
+  transpileDependencies: [
+    /mo-ui/,
+    /lqq-ui/,
+  ],
+
   configureWebpack: {
     resolve: {
       alias: {
         mo: resolve("mo"),
-        "lqq-ui": resolve("lqq-ui"),
         "mo-ui": resolve("mo-ui"),
         "mo-guide": resolve("mo-guide"),
       }

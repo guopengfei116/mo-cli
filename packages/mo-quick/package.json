@@ -25,12 +25,14 @@
     "build-test": "vue-cli-service build --mode test"
   },
   "dependencies": {
+    "@weiyi/component-sdk": "0.0.4",
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "echarts": "^4.6.0",
     "element-ui": "^2.13.0",
-    "lqq-core": "0.0.6",
-    "lqq-util": "0.0.6",
+    "lqq-core": "0.0.9",
+    "lqq-ui": "0.0.9",
+    "lqq-util": "0.0.9",
     "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",

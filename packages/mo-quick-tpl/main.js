@@ -1,3 +1,4 @@
 export default [
-  "crud"
+  "crud",
+  "crud2"
 ];

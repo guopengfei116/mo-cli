@@ -14,7 +14,7 @@ module.exports = {
   // 解析器选项
   parserOptions: {
     parser: "babel-eslint",
-    sourceType: "module",   // 使用 ES 模块
+    sourceType: "module",   // 使用 ES 模块c
     ecmaVersion: 10         // ES10 语法支持
   },
 

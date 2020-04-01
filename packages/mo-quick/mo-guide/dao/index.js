@@ -1,5 +1,4 @@
 import { createNamespacedHelpers } from "mo/http";
-import menuApiData from "./menus";
 
 const request = createNamespacedHelpers("moguide/base");
 
@@ -29,6 +28,5 @@ export const getNavMenus = async payload => {
   // const data = res.data.data;
 
   // return data;
-
-  return menuApiData.data;
+  return [];
 };

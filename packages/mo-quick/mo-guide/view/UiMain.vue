@@ -12,7 +12,7 @@ export default {
   },
 
   computed: {
-    ...mapState("moguide", ["title"])
+    ...mapState("moguide", ["title", "introduce"])
   },
 
   methods: {
@@ -24,7 +24,8 @@ export default {
   render() {
     return (
       <article>
-        <h1 style={{ textAlign: "center" }}>{this.title}</h1>
+        <h1 style={{ textAlign: "center" }}>{this.introduce}</h1>
+
         <dl>
           <dt>MoButton</dt>
           <dd>

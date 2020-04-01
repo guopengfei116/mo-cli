@@ -15,7 +15,7 @@ Object.keys(ui).forEach(name => {
 
   // 命名转换，形成text类型组件，text-plain、text-form、...
   if (name === "PlainText") {
-    Vue.component("mo-text-plain", QqUi[name]);
+    Vue.component("mo-text-plain", ui[name]);
     console.info(`register: mo-text-plain`);
   }
 });

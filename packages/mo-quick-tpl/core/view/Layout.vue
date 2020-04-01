@@ -12,7 +12,7 @@ export default {
 
   data() {
     return {
-      logo: "QQ",
+      logo: "MO",
 
       header: {
         app: "CRUD Example"
