@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "qq/**/*", "mo/**/*", "mo-ui/**/*"],
+  "include": ["src/**/*", "mo-ui/**/*"],
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "experimentalDecorators": true,
@@ -8,8 +8,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "qq/*": ["qq/*"],
-      "mo/*": ["mo/*"],
       "mo-ui/*": ["mo-ui/*"],
     }
   }
