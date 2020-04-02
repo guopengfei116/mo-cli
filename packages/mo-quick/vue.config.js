@@ -14,6 +14,7 @@ module.exports = {
   productionSourceMap: isProduction ? false : true,
 
   transpileDependencies: [
+    /mo/,
     /mo-ui/,
     /lqq-ui/,
   ],
@@ -21,7 +22,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        "mo": resolve("mo"),
+        "mo": resolve("node_modules/@weiyi/mo"),
         "mo-ui": resolve("mo-ui"),
         "mo-guide": resolve("mo-guide"),
       }
