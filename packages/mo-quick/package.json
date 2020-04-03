@@ -1,6 +1,6 @@
 {
   "name": "@weiyi/mo-quick",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Vue模块化开发脚手架",
   "keywords": [
     "mo",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@weiyi/component-sdk": "0.0.4",
     "@weiyi/mo": "^0.2.7",
-    "@weiyi/mo-ui": "^0.2.9",
+    "@weiyi/mo-ui": "^0.2.10",
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "echarts": "^4.6.0",
