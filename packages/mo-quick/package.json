@@ -25,7 +25,6 @@
     "build-test": "vue-cli-service build --mode test"
   },
   "dependencies": {
-    "@weiyi/component-sdk": "0.0.4",
     "@weiyi/mo": "^0.2.12",
     "@weiyi/mo-ui": "^0.2.13",
     "axios": "^0.19.2",
