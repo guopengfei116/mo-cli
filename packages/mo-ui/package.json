@@ -16,6 +16,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@weiyi/component-sdk": "0.0.4",
     "lqq-core": "0.0.11",
     "lqq-ui": "0.0.11"
   }
