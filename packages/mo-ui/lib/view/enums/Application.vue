@@ -1,5 +1,5 @@
 <script>
-import { getApplicationList } from "mo-ui/dao/enums";
+import { getApplicationList } from "mo-ui/lib/dao/enums";
 
 export default {
   name: "MoApplication",

@@ -1,4 +1,4 @@
-import moUi from "mo-ui/main";
+import moUi from "mo-ui";
 import moGuide from "mo-guide/main";
 
 export default [moUi, moGuide];

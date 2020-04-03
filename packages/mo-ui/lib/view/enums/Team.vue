@@ -1,5 +1,5 @@
 <script>
-import { getTeamList } from "mo-ui/dao/enums";
+import { getTeamList } from "mo-ui/lib/dao/enums";
 
 export default {
   name: "MoTeam",

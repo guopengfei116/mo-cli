@@ -1,6 +1,6 @@
 <script>
-import Chart from "mo-ui/lib/chart/Chart";
-import PieOption from "mo-ui/lib/chart/PieOption";
+import Chart from "mo-ui/lib/lib/chart/Chart";
+import PieOption from "mo-ui/lib/lib/chart/PieOption";
 
 const defaultPieOption = new PieOption();
 Object.freeze(defaultPieOption);

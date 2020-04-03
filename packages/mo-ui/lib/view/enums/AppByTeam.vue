@@ -1,5 +1,5 @@
 <script>
-import { getAppByTeam } from "mo-ui/dao/enums";
+import { getAppByTeam } from "mo-ui/lib/dao/enums";
 
 export default {
   name: "MoAppByTeam",
