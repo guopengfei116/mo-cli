@@ -1,6 +1,6 @@
 <script>
-import Chart from "mo-ui/lib/util/chart/Chart";
-import LineOption from "mo-ui/lib/util/chart/LineOption";
+import Chart from "mo-ui/lib/chart/Chart";
+import LineOption from "mo-ui/lib/chart/LineOption";
 
 const defaultLineOption = new LineOption();
 Object.freeze(defaultLineOption);
