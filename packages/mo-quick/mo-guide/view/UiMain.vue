@@ -1,6 +1,6 @@
 <script>
 import { mapState } from "vuex";
-import { isDisabledDate } from "mo-ui/lib";
+import { isDisabledDate } from "mo-ui/lib/util";
 
 export default {
   name: "moguideUi",

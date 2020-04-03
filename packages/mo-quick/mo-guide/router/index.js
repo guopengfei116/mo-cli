@@ -1,4 +1,4 @@
-import { NotFound } from "mo-ui/view";
+import { NotFound } from "mo-ui/lib/view";
 import MainLayout from "mo-guide/view/MainLayout";
 
 export default [
