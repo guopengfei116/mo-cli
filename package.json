@@ -1,14 +1,15 @@
 {
-  "name": "mo-cli",
-  "version": "0.0.1",
+  "name": "mo",
+  "version": "0.1.0",
   "description": "基于Vue的前端敏捷开发解决方案",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "lerna publish"
   },
   "keywords": [
     "vue",
-    "cli",
-    "mo"
+    "vue-template",
+    "mo",
+    "mo-quick"
   ],
   "repository": {
     "type": "git"
