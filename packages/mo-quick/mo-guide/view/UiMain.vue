@@ -181,6 +181,20 @@ export default {
             </mo-multiple-menu>
           </dd>
         </dl>
+
+        <dl>
+          <dt>mo-copy-button</dt>
+          <dd>
+            <mo-copy-button
+              text="哔哩哔哩，干杯🍻"
+              scopedSlots={{
+                default({ copy }) {
+                  return <mo-button onClick={copy}>复制</mo-button>;
+                }
+              }}
+            ></mo-copy-button>
+          </dd>
+        </dl>
       </article>
     );
   }
