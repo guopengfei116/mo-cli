@@ -27,17 +27,9 @@
   "dependencies": {
     "@weiyi/mo": "^0.2.14",
     "@weiyi/mo-ui": "^0.2.14",
-    "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "echarts": "^4.6.0",
-    "element-ui": "^2.13.0",
-    "moment": "^2.24.0",
-    "normalize.css": "^8.0.1",
-    "nprogress": "^0.2.0",
-    "template": "^0.17.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
