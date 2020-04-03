@@ -7,7 +7,41 @@ export default {
 
   data() {
     return {
-      dateRange: ["2008-10-01", "2020-05-01"]
+      dateRange: ["2008-10-01", "2020-05-01"],
+      menuData: [
+        {
+          group: "SA",
+          icon: "el-icon-s-tools",
+          list: [
+            { name: "负载均衡", url: "/18" },
+            { name: "云主机", url: "/19" }
+          ]
+        },
+        {
+          group: "NA",
+          icon: "el-icon-user-solid",
+          list: [
+            { name: "负载均衡", url: "/18" },
+            { name: "云主机", url: "/19" }
+          ]
+        },
+        {
+          group: "IT",
+          icon: "el-icon-circle-plus",
+          list: [
+            { name: "负载均衡", url: "/18" },
+            { name: "云主机", url: "/19" }
+          ]
+        },
+        {
+          group: "BB",
+          icon: "el-icon-s-tools",
+          list: [
+            { name: "负载均衡", url: "/18" },
+            { name: "云主机", url: "/19" }
+          ]
+        }
+      ]
     };
   },
 
@@ -136,6 +170,15 @@ export default {
                 }
               }}
             ></mo-closure>
+          </dd>
+        </dl>
+
+        <dl>
+          <dt>mo-multiple-menu</dt>
+          <dd>
+            <mo-multiple-menu data={this.menuData}>
+              <el-button>点我查看内容</el-button>
+            </mo-multiple-menu>
           </dd>
         </dl>
       </article>

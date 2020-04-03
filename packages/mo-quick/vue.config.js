@@ -14,8 +14,8 @@ module.exports = {
   productionSourceMap: isProduction ? false : true,
 
   transpileDependencies: [
-    /mo/,
-    /mo-ui/,
+    /@weiyi\/mo/,
+    /@weiyi\/mo-ui/,
     /lqq-ui/,
   ],
 
@@ -23,7 +23,7 @@ module.exports = {
     resolve: {
       alias: {
         "mo": resolve("node_modules/@weiyi/mo"),
-        "mo-ui": resolve("mo-ui"),
+        "mo-ui": resolve("node_modules/@weiyi/mo-ui"),
         "mo-guide": resolve("mo-guide"),
       }
     }
