@@ -23,6 +23,7 @@
   "dependencies": {
     "@weiyi/mo-quick": "^0.2.16",
     "@weiyi/mo-quick-tpl": "^0.2.12",
+    "@weiyi/mo-ui-h5": "^0.0.1",
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
     "envinfo": "^7.5.0",
