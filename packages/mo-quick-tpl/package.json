@@ -1,6 +1,6 @@
 {
   "name": "@weiyi/mo-quick-tpl",
-  "version": "0.2.12",
+  "version": "0.2.17",
   "description": "Vue快速开发模块化代码模板",
   "main": "main.js",
   "scripts": {

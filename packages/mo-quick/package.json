@@ -1,6 +1,6 @@
 {
   "name": "@weiyi/mo-quick",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "Vue模块化开发脚手架",
   "keywords": [
     "mo",
@@ -25,8 +25,8 @@
     "build-test": "vue-cli-service build --mode test"
   },
   "dependencies": {
-    "@weiyi/mo": "^0.2.14",
-    "@weiyi/mo-ui": "^0.2.16",
+    "@weiyi/mo": "^0.2.17",
+    "@weiyi/mo-ui": "^0.2.17",
     "core-js": "^3.6.4"
   },
   "devDependencies": {
