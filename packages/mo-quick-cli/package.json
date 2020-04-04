@@ -1,6 +1,6 @@
 {
   "name": "@weiyi/mo-quick-cli",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "mo集成开发工具",
   "bin": {
     "mo-cli": "bin/mo-quick-cli.js"
@@ -21,7 +21,7 @@
     "type": "git"
   },
   "dependencies": {
-    "@weiyi/mo-quick": "^0.2.15",
+    "@weiyi/mo-quick": "^0.2.16",
     "@weiyi/mo-quick-tpl": "^0.2.12",
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
