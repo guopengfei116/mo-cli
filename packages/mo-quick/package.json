@@ -27,9 +27,7 @@
   "dependencies": {
     "@weiyi/mo": "^0.2.14",
     "@weiyi/mo-ui": "^0.2.16",
-    "core-js": "^3.6.4",
-    "echarts": "^4.6.0",
-    "normalize.css": "^8.0.1"
+    "core-js": "^3.6.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",

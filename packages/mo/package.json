@@ -12,7 +12,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "lqq-core": "0.0.11",
-    "lqq-util": "0.0.11"
+    "lqq-core": "^0.0.12",
+    "lqq-util": "^0.0.12"
   }
 }
