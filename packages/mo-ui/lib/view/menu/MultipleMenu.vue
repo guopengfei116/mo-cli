@@ -2,7 +2,7 @@
   <div class="dropMenu_box">
     <el-popover
       placement="bottom-start"
-      trigger="click"
+      trigger="hover"
       popper-class="el-popover-black"
     >
       <div class="menu">
@@ -16,7 +16,11 @@
               v-for="(list, index) in item.list"
               :key="`${index}_${list.name}`"
             >
-              <el-link :underline="false" :href="list.url">
+              <el-link
+                :underline="false"
+                :href="list.url"
+                :class="{ isActive: isActive(list.url) }"
+              >
                 {{ list.name }}
               </el-link>
             </p>
@@ -39,8 +43,11 @@ export default {
       default: () => []
     }
   },
-  computed: {
-    // 1a
+  methods: {
+    isActive(url) {
+      const activeUrl = window.location.pathname.split('/')[1];
+      return url.includes(activeUrl);
+    }
   }
 };
 </script>
@@ -98,6 +105,9 @@ li {
         text-overflow: ellipsis;
         font-size: 12px;
         color: #aaa;
+        &.isActive {
+          color: #409eff;
+        }
         &:hover {
           color: #409eff;
         }
